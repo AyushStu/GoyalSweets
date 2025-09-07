@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GoyalSweets/static/css/main.c121aa02.css",
-    "main.js": "/GoyalSweets/static/js/main.7d813b77.js",
+    "main.js": "/GoyalSweets/static/js/main.c3ac4c0a.js",
     "static/js/453.10a78ad5.chunk.js": "/GoyalSweets/static/js/453.10a78ad5.chunk.js",
     "static/media/Img2.webp": "/GoyalSweets/static/media/Img2.b005930c8b003ce635e4.webp",
     "static/media/Milkcake.webp": "/GoyalSweets/static/media/Milkcake.c8e86988f34418b52726.webp",
@@ -15,11 +15,11 @@
     "static/media/Mattar.jpeg": "/GoyalSweets/static/media/Mattar.8216bfa7129a57828fed.jpeg",
     "index.html": "/GoyalSweets/index.html",
     "main.c121aa02.css.map": "/GoyalSweets/static/css/main.c121aa02.css.map",
-    "main.7d813b77.js.map": "/GoyalSweets/static/js/main.7d813b77.js.map",
+    "main.c3ac4c0a.js.map": "/GoyalSweets/static/js/main.c3ac4c0a.js.map",
     "453.10a78ad5.chunk.js.map": "/GoyalSweets/static/js/453.10a78ad5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c121aa02.css",
-    "static/js/main.7d813b77.js"
+    "static/js/main.c3ac4c0a.js"
   ]
 }
