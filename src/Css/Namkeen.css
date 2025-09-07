@@ -1,0 +1,27 @@
+.Add-to-cart {
+  width: 350px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.Namkeen .Add-to-cart:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+.head {
+  display: flex;
+  justify-content: center; /* pushes content to the center horizontally */
+  align-items: center; /* centers vertically within 100px height */
+  height: 100px;
+  background-color: #f8f8f8; /* optional */
+  width: 100%; /* ensures it takes full width */
+}
+
+.head h1 {
+  font-size: 28px;
+  font-weight: bolder;
+  margin: 0; /* remove default h1 margin */
+  color: rgb(30, 49, 49);
+}

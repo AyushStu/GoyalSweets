@@ -1,0 +1,148 @@
+/* ================= Navbar ================= */
+.NavHeader {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* Left | Logo | Right */
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  padding: 0 30px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Left Navigation */
+.NavLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.NavbarLinks {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.NavbarLinks a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.NavbarLinks a:hover {
+  color: #bc0000;
+}
+
+/* Center Logo */
+.NavLogo {
+  display: flex;
+  justify-content: center;
+}
+
+.NavLogo img {
+  width: 120px;
+  height: auto;
+  border-radius: 40px;
+}
+
+/* Right Navigation (for future, e.g., cart/login) */
+.NavRight {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+}
+
+/* ================= Slider ================= */
+.Slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.Slider img {
+  width: 90%;
+  height: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+/* ================= Featured Items ================= */
+.Featured {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 20px;
+}
+
+.Featured img {
+  width: 100%;
+  height: max;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.Featured img:hover {
+  transform: scale(1.05);
+}
+
+.FeaturedDescription {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.FeaturedPrice {
+  font-weight: bold;
+  font-size: 16px;
+  color: #bc0000;
+  margin-top: 3px;
+  text-align: center;
+}
+
+/* ================= Contact Section ================= */
+.Contact {
+  width: 100%;
+  min-height: 50px; /* allow auto expansion */
+  background-color: rgb(77, 20, 20);
+  color: aliceblue;
+  padding: 40px 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* centers text inside */
+}
+
+.Contact h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.Contact p {
+  max-width: 800px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+.Counter {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
+.Counter img {
+  width: 90%;
+  height: 100%;
+  display: block;
+  border-radius: 10px;
+}
