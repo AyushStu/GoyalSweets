@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/AyushStu/GoyalSweets/static/css/main.c121aa02.css",
+    "main.js": "/AyushStu/GoyalSweets/static/js/main.215db1a9.js",
+    "static/js/453.10a78ad5.chunk.js": "/AyushStu/GoyalSweets/static/js/453.10a78ad5.chunk.js",
+    "static/media/Img2.webp": "/AyushStu/GoyalSweets/static/media/Img2.b005930c8b003ce635e4.webp",
+    "static/media/Milkcake.webp": "/AyushStu/GoyalSweets/static/media/Milkcake.c8e86988f34418b52726.webp",
+    "static/media/Motichor.webp": "/AyushStu/GoyalSweets/static/media/Motichor.d3c0836fbf9118b37236.webp",
+    "static/media/Img1.webp": "/AyushStu/GoyalSweets/static/media/Img1.5ade59972040692d2dab.webp",
+    "static/media/Kajubarfi.webp": "/AyushStu/GoyalSweets/static/media/Kajubarfi.e18613cb7196cf9e6e9f.webp",
+    "static/media/Namkeen.webp": "/AyushStu/GoyalSweets/static/media/Namkeen.8c3672ecb42e24503a26.webp",
+    "static/media/Chanadal.webp": "/AyushStu/GoyalSweets/static/media/Chanadal.b42d35ad3911cafafecd.webp",
+    "static/media/Counter.webp": "/AyushStu/GoyalSweets/static/media/Counter.467ebfddffa4a14c3f12.webp",
+    "static/media/Mewa.jpeg": "/AyushStu/GoyalSweets/static/media/Mewa.90a88ae67ed1769a018d.jpeg",
+    "static/media/Mattar.jpeg": "/AyushStu/GoyalSweets/static/media/Mattar.8216bfa7129a57828fed.jpeg",
+    "index.html": "/AyushStu/GoyalSweets/index.html",
+    "main.c121aa02.css.map": "/AyushStu/GoyalSweets/static/css/main.c121aa02.css.map",
+    "main.215db1a9.js.map": "/AyushStu/GoyalSweets/static/js/main.215db1a9.js.map",
+    "453.10a78ad5.chunk.js.map": "/AyushStu/GoyalSweets/static/js/453.10a78ad5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c121aa02.css",
+    "static/js/main.215db1a9.js"
+  ]
+}
