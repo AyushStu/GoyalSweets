@@ -119,11 +119,10 @@
   text-align: right;
 }
 
-/* ================= Responsive ================= */
+/* Cart Drawer for mobile */
 @media (max-width: 500px) {
   .Cart {
-    width: 100%; /* Full width on mobile */
-    max-width: none;
+    width: 100%; /* full width on small screens */
     padding: 15px;
   }
 
@@ -132,7 +131,7 @@
   }
 
   .Cart-item {
-    flex-direction: column; /* Stack image & details */
+    flex-direction: column; /* stack image & details */
     align-items: center;
     text-align: center;
   }
@@ -140,53 +139,26 @@
   .Cart-item img {
     width: 100px;
     height: 100px;
-    margin: 0 0 10px 0;
+    margin-bottom: 10px;
   }
 
   .Cart-item-details {
     align-items: center;
+    width: 100%;
   }
 
   .Quantity-controls {
     margin-top: 8px;
+    justify-content: center; /* center the buttons */
   }
 
   .Cart-total {
     font-size: 18px;
     text-align: center;
   }
-}
 
-@media (max-width: 480px) {
-  .Cart-header h2 {
-    font-size: 16px;
+  .Name {
+    flex-direction: column; /* stack first & last name vertically */
+    gap: 10px;
   }
-
-  .Cart-item img {
-    width: 80px;
-    height: 80px;
-  }
-
-  .Cart-item-details p {
-    font-size: 14px;
-  }
-
-  .Cart-total {
-    font-size: 16px;
-  }
-}
-
-.Checkout button {
-  margin-top: 10px;
-  padding: 5px 10px;
-  background: #ff4d4d;
-  color: #fff;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.Name {
-  display: flex;
-  flex-direction: row;
 }
