@@ -1,61 +1,3 @@
-/* ================= Navbar ================= */
-.NavHeader {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr; /* Left | Logo | Right */
-  align-items: center;
-  height: 80px;
-  width: 100%;
-  padding: 0 30px;
-  background: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-/* Left Navigation */
-.NavLeft {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.NavbarLinks {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-}
-
-.NavbarLinks a {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-.NavbarLinks a:hover {
-  color: #bc0000;
-}
-
-/* Center Logo */
-.NavLogo {
-  display: flex;
-  justify-content: center;
-}
-
-.NavLogo img {
-  width: 120px;
-  height: auto;
-  border-radius: 40px;
-}
-
-/* Right Navigation (for future, e.g., cart/login) */
-.NavRight {
-  display: flex;
-  justify-content: flex-end;
-  gap: 20px;
-  align-items: center;
-}
-
 /* ================= Slider ================= */
 .Slider {
   display: flex;
@@ -157,28 +99,6 @@
 }
 
 @media (max-width: 768px) {
-  .NavHeader {
-    grid-template-columns: auto auto; /* Logo + hamburger */
-    padding: 0 15px;
-  }
-
-  .NavbarLinks {
-    display: none; /* hide links on mobile */
-    flex-direction: column;
-    background: #fff;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    padding: 15px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .NavbarLinks a {
-    padding: 10px 0;
-    font-size: 16px;
-  }
-
   .Slider {
     height: 250px;
   }

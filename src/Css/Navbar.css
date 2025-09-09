@@ -1,0 +1,121 @@
+/* ================= Navbar ================= */
+.NavHeader {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* Left | Logo | Right */
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  padding: 0 30px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Left Navigation */
+.NavLeft {
+  display: flex;
+  align-items: center;
+}
+
+/* Hamburger Menu */
+.Ham {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+/* Desktop Links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #bc0000;
+}
+
+/* Mobile Links (hidden by default) */
+.nav-links-Mobile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  padding: 20px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.nav-links-Mobile a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.nav-links-Mobile a:hover {
+  background: #f2f2f2;
+  color: #bc0000;
+}
+
+/* Cart Icon */
+.fa-shopping-cart {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* Center Logo */
+.NavLogo {
+  display: flex;
+  justify-content: center;
+}
+
+.NavLogo img {
+  width: 120px;
+  height: auto;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.NavLogo img:hover {
+  transform: scale(1.05);
+}
+
+/* ================= Responsive ================= */
+@media (max-width: 768px) {
+  .NavHeader {
+    grid-template-columns: auto auto; /* hamburger + logo */
+    padding: 0 15px;
+  }
+
+  .Ham {
+    display: block; /* show hamburger */
+  }
+
+  .nav-links {
+    display: none; /* hide normal nav on mobile */
+  }
+
+  .fa-shopping-cart {
+    margin-left: 15px;
+  }
+
+  .NavLogo img {
+    width: 90px;
+  }
+}

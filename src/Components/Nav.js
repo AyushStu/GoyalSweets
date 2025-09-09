@@ -1,29 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Img/Logo.jpeg";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import "../Css/Navbar.css";
 
 export default function Nav({ onCartClick }) {
+  const [isOpen, setOpen] = useState(false);
+
   return (
     <div className="NavHeader">
-      {/* Left navigation */}
       <div className="NavLeft">
-        <nav className="NavbarLinks">
+        <div className="Ham" onClick={() => setOpen(!isOpen)}>
+          ☰
+        </div>
+        <ul className={isOpen ? "nav-links-Mobile" : "nav-links"}>
           <Link to="/">Home</Link>
           <Link to="/Namkeen">Namkeen</Link>
           <Link to="/Sweets">Sweets</Link>
-
-          {/* Cart icon opens overlay */}
-          <button
-            onClick={onCartClick}
-            style={{ background: "none", border: "none", cursor: "pointer" }}
-          >
-            <i className="fas fa-shopping-cart"></i>
+          <button onClick={onCartClick} className="CartButton">
+            <i
+              className="fas fa-shopping-cart"
+              style={{
+                backgroundColor: "none",
+                marginLeft: "10px",
+                fontSize: "18px",
+                cursor: "pointer",
+              }}
+            ></i>
           </button>
-        </nav>
+        </ul>
       </div>
 
-      {/* Centered logo */}
+      {/* Center: Logo */}
       <div className="NavLogo">
         <img src={Logo} alt="Logo" />
       </div>
