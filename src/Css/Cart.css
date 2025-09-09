@@ -127,7 +127,9 @@
   }
 
   .Cart-header h2 {
+    flex-grow: 1;
     font-size: 18px;
+    text-align: center;
   }
 
   .Cart-item {
