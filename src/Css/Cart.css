@@ -174,3 +174,18 @@
     font-size: 16px;
   }
 }
+
+.Checkout button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Name {
+  display: flex;
+  flex-direction: row;
+}

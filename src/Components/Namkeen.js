@@ -33,8 +33,6 @@ export default function Namkeen() {
   };
   return (
     <div>
-      <Nav />
-
       <div className="head">
         <h1>Namkeen</h1>
       </div>

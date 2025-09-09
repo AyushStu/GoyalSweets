@@ -2,26 +2,25 @@ import React, { useRef, useEffect } from "react";
 import "../Css/Cart.css";
 import { useSelector, useDispatch } from "react-redux";
 import { removeItem, increment, decrement } from "../Redux/cartSlice";
+import Checkout from "./Checkout";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Cart({ onClose }) {
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   const items = useSelector((state) => state.cart.items);
   const cartRef = useRef(null);
-
-  useEffect(() => {
-    function handleOutside(event) {
-      if (cartRef.current && !cartRef.current.contains(event.target)) {
-        onClose();
-      }
-    }
-    document.addEventListener("mousedown", handleOutside);
-    return () => document.removeEventListener("mousedown", handleOutside);
-  }, [onClose]);
 
   const subtotal = items.reduce(
     (total, item) => total + item.price * item.quantity,
     0
   );
+
+  const handleChekout = () => {
+    navigate("/Checkout", { state: { subtotal } });
+    onClose();
+  };
 
   return (
     <>
@@ -56,8 +55,11 @@ export default function Cart({ onClose }) {
           ))
         )}
 
-        <div className="Cart-total" style={{ marginBottom: "20px" }}>
+        <div className="Cart-total" style={{ marginBottom: "50px" }}>
           <p>Subtotal: Rs. {subtotal}.00</p>
+          <button className="Checkout" onClick={handleChekout}>
+            Checkout
+          </button>
         </div>
       </div>
     </>

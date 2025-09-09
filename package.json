@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://ayushstu.github.io/GoyalSweets",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.1",
     "@reduxjs/toolkit": "^2.9.0",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
@@ -11,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-hook-form": "^7.62.0",
     "react-redux": "^9.2.0",
     "react-router-dom": "^6.30.1",
     "react-scripts": "5.0.1",

@@ -49,9 +49,6 @@ export default function Home() {
   return (
     <>
       <div className={`home-content ${showCart ? "shaded" : ""}`}>
-        <div>
-          <Nav />
-        </div>
         <div className="Slider">
           <img src={Images[index]} alt="Home"></img>
         </div>

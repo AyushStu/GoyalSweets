@@ -30,7 +30,6 @@ export default function Sweets() {
 
   return (
     <div>
-      <Nav />
       <div className="head">
         <h1>Sweets</h1>
       </div>

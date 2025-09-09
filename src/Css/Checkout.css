@@ -1,0 +1,48 @@
+.Checkout1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100vh;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Checkout1 label {
+  padding: 5px;
+  margin: 2px;
+  font-size: 25px;
+}
+.Checkout1 input {
+  padding: 20px;
+  margin: 2px;
+  border-radius: 8px;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.Checkout1 p {
+  font-weight: bolder;
+  color: brown;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.Checkout1 button {
+  padding: 20px;
+  font-size: 15px;
+}
+
+.error {
+  color: red;
+  display: block; /* always below input */
+  min-height: 16px; /* reserve space for error */
+  font-size: 12px;
+  margin-top: 2px;
+  font-size: 15px;
+}
+
+@media (max-width: 550px) {
+  .Name {
+    flex-direction: column;
+  }
+}
