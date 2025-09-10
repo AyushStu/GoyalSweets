@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GoyalSweets/static/css/main.63cc1b95.css",
-    "main.js": "/GoyalSweets/static/js/main.c3ac4c0a.js",
+    "main.css": "/GoyalSweets/static/css/main.73098760.css",
+    "main.js": "/GoyalSweets/static/js/main.a4c41ef7.js",
     "static/js/453.10a78ad5.chunk.js": "/GoyalSweets/static/js/453.10a78ad5.chunk.js",
     "static/media/Img2.webp": "/GoyalSweets/static/media/Img2.b005930c8b003ce635e4.webp",
     "static/media/Milkcake.webp": "/GoyalSweets/static/media/Milkcake.c8e86988f34418b52726.webp",
@@ -10,16 +10,20 @@
     "static/media/Kajubarfi.webp": "/GoyalSweets/static/media/Kajubarfi.e18613cb7196cf9e6e9f.webp",
     "static/media/Namkeen.webp": "/GoyalSweets/static/media/Namkeen.8c3672ecb42e24503a26.webp",
     "static/media/Chanadal.webp": "/GoyalSweets/static/media/Chanadal.b42d35ad3911cafafecd.webp",
+    "static/media/fa-solid-900.woff2": "/GoyalSweets/static/media/fa-solid-900.0ae4e6254fc19607c79e.woff2",
+    "static/media/fa-brands-400.woff2": "/GoyalSweets/static/media/fa-brands-400.e7461d69dbbff1310a5c.woff2",
     "static/media/Counter.webp": "/GoyalSweets/static/media/Counter.467ebfddffa4a14c3f12.webp",
+    "static/media/fa-regular-400.woff2": "/GoyalSweets/static/media/fa-regular-400.1f38a564cd9eae27ebc3.woff2",
     "static/media/Mewa.jpeg": "/GoyalSweets/static/media/Mewa.90a88ae67ed1769a018d.jpeg",
     "static/media/Mattar.jpeg": "/GoyalSweets/static/media/Mattar.8216bfa7129a57828fed.jpeg",
+    "static/media/fa-v4compatibility.woff2": "/GoyalSweets/static/media/fa-v4compatibility.661bd6b7245d5205d3e1.woff2",
     "index.html": "/GoyalSweets/index.html",
-    "main.63cc1b95.css.map": "/GoyalSweets/static/css/main.63cc1b95.css.map",
-    "main.c3ac4c0a.js.map": "/GoyalSweets/static/js/main.c3ac4c0a.js.map",
+    "main.73098760.css.map": "/GoyalSweets/static/css/main.73098760.css.map",
+    "main.a4c41ef7.js.map": "/GoyalSweets/static/js/main.a4c41ef7.js.map",
     "453.10a78ad5.chunk.js.map": "/GoyalSweets/static/js/453.10a78ad5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63cc1b95.css",
-    "static/js/main.c3ac4c0a.js"
+    "static/css/main.73098760.css",
+    "static/js/main.a4c41ef7.js"
   ]
 }
