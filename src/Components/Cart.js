@@ -1,9 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import "../Css/Cart.css";
 import { useSelector, useDispatch } from "react-redux";
 import { removeItem, increment, decrement } from "../Redux/cartSlice";
-import Checkout from "./Checkout";
-import { useState } from "react";
+
 import { useNavigate } from "react-router-dom";
 
 export default function Cart({ onClose }) {
@@ -18,8 +17,13 @@ export default function Cart({ onClose }) {
   );
 
   const handleChekout = () => {
-    navigate("/Checkout", { state: { subtotal } });
-    onClose();
+    if (!items.length) {
+      alert("Please select an item to checkout");
+      return;
+    } else {
+      navigate("/Checkout", { state: { subtotal } });
+      onClose();
+    }
   };
 
   return (

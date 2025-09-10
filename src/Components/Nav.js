@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import Logo from "../Img/Logo.jpeg";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "../Css/Navbar.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Nav({ onCartClick }) {
   const [isOpen, setOpen] = useState(false);
+  const Navigate = useNavigate();
 
   return (
     <div className="NavHeader">
@@ -33,7 +35,7 @@ export default function Nav({ onCartClick }) {
 
       {/* Center: Logo */}
       <div className="NavLogo">
-        <img src={Logo} alt="Logo" />
+        <img src={Logo} alt="Logo" onClick={() => Navigate("/")} />
       </div>
     </div>
   );
